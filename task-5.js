@@ -1,9 +1,5 @@
-const userCountry = prompt("Введите вашу страну").toLowerCase();
-
-// userCountry === null || userCountry === "" {
-//  console.log(" Отмена");
-// }
-
+let userCountry = prompt("Введите вашу страну");
+userCountry = (userCountry + "").toLowerCase();
 const china = "китай";
 const chile = "чили";
 const australia = "австралия";
